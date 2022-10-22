@@ -5,7 +5,7 @@ import {HomeIcon} from "@heroicons/react/solid"
 
 export default function Header() {
   return (
-    <div className="shadow-sm border-b bg-white sticky top-0 z-50">
+    <div>
       <div className="flex justify-between max-w-6xl mx-5 lg:mx-auto">
         <div className="relative w-24  hidden lg:inline-grid cursor-pointer">
           <Image
@@ -38,17 +38,14 @@ export default function Header() {
         <div className="flex items-center justify-end space-x-4">
           <HomeIcon className="navBtn" />
           <MenuIcon className="h-6 md:hidden cursor-pointer" />
-          <div className="relative navBar">
-            <PaperAirplaneIcon className="navBtn rotate-45" />
-            <div className=" invisible md:visible absolute -top-1 -right-2 bg-red-500 rounded-full items-center justify-center animate-pulse text-white flex  text-sm w-5 h-5 ">
-              3
-            </div>
-          </div>
+          <div>
+            <PaperAirplaneIcon className="navBtn" />
+          </div className="relatie navBar">
           <PlusCircleIcon className="navBtn" />
           <UserGroupIcon className="navBtn" />
           <HeartIcon className="navBtn" />
           <img
-            src="/favicon.ico"
+            src="https://pbs.twimg.com/profile_images/1524397902159912967/G2SCGT79_bigger.jpg"
             alt="no profile picture header.js"
             className="h-10 rounded-full cursor-pointer"
           />

@@ -40,15 +40,13 @@ export default function Header() {
           <MenuIcon className="h-6 md:hidden cursor-pointer" />
           <div className="relative navBar">
             <PaperAirplaneIcon className="navBtn rotate-45" />
-            <div className=" invisible md:visible absolute -top-1 -right-2 bg-red-500 rounded-full items-center justify-center animate-pulse text-white flex  text-sm w-5 h-5 ">
-              3
-            </div>
+            <div className=" hidden md:inline absolute -top-1 -right-2 bg-red-500 rounded-full items-center justify-center animate-pulse text-white flex   text-sm w-5 h-5 ">3</div>
           </div>
           <PlusCircleIcon className="navBtn" />
           <UserGroupIcon className="navBtn" />
           <HeartIcon className="navBtn" />
           <img
-            src="/favicon.ico"
+            src="https://pbs.twimg.com/profile_images/1524397902159912967/G2SCGT79_bigger.jpg"
             alt="no profile picture header.js"
             className="h-10 rounded-full cursor-pointer"
           />

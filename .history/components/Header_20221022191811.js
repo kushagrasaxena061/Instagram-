@@ -48,7 +48,7 @@ export default function Header() {
           <UserGroupIcon className="navBtn" />
           <HeartIcon className="navBtn" />
           <img
-            src="/favicon.ico"
+            src="/images/images/favicon"
             alt="no profile picture header.js"
             className="h-10 rounded-full cursor-pointer"
           />

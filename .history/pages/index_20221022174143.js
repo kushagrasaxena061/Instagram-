@@ -9,7 +9,7 @@ import Feed from "../components/Feed.js"
 
 const index = () => {
   return (
-    <div className="bg-gray-50 h-screen overflow-y-scroll">
+    <div className="">
       <Head>
         <title>Instagram</title>
         <link rel="icon" href="/favicon.ico" />
