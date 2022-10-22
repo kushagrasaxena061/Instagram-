@@ -8,7 +8,6 @@ import Modal from "../components/Modal.js"
 
 
 const index = () => {
-  
   return (
     <div className="bg-gray-50 h-screen overflow-y-scroll">
       <Head>
@@ -17,6 +16,7 @@ const index = () => {
       </Head>
       <Header />
       <Feed/>
+      <Modal/>
     </div>
   );
 }

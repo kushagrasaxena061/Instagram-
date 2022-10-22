@@ -23,13 +23,7 @@ export default function Stories() {
         <Story img={session.user.image} user={session.user.username}/>
       )}
 
-      {suggestions.map((profile) => (
-        <Story
-          key={profile.id}
-          img={profile.avatar}
-          username={profile.username}
-        />
-      ))}
+      
     </div>
   );
 }

@@ -11,7 +11,7 @@ export default function MiniProfile() {
       <img
         className="rounded-full border p-[2px] w-16 h-16"
         src={session?.user?.image}
-        alt=""
+        alt="no photo miniprofile.js"
       />
       <div className="flex-1 mx-4">
         <h2 className="font-bold ">{session?.user?.username}</h2>

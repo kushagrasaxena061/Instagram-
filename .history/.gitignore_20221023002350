@@ -8,8 +8,7 @@
 # testing
 Google_Auth.json
 /coverage
-json
-Json
+
 # next.js
 /.next/
 /out/

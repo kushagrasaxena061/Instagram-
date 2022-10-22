@@ -17,6 +17,7 @@ const index = () => {
       </Head>
       <Header />
       <Feed/>
+      <Modal/>
     </div>
   );
 }

@@ -10,8 +10,8 @@ export default function MiniProfile() {
     <div className="flex items-center justify-between mt-14 ml-10 ">
       <img
         className="rounded-full border p-[2px] w-16 h-16"
-        src={session?.user?.image}
-        alt=""
+        src="/images/images/Logo.jpeg"
+        alt="no photo miniprofile.js"
       />
       <div className="flex-1 mx-4">
         <h2 className="font-bold ">{session?.user?.username}</h2>
